@@ -13,7 +13,7 @@
 
 package ePortal::App::MsgForum::MsgItem;
     use base qw/ePortal::ThePersistent::Support/;
-    our $VERSION = '4.1';
+    our $VERSION = '4.2';
 
     use Carp;
     use ePortal::Global;

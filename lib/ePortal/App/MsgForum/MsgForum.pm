@@ -13,7 +13,7 @@
 
 package ePortal::App::MsgForum::MsgForum;
     use base qw/ePortal::ThePersistent::ExtendedACL/;
-    our $VERSION = '4.1';
+    our $VERSION = '4.2';
 
 	use Carp;
 	use ePortal::Global;

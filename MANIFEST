@@ -71,3 +71,4 @@ lib/ePortal/App/MsgForum.pm
 lib/ePortal/App/MsgForum/MsgForum.pm
 lib/ePortal/App/MsgForum/MsgItem.pm
 target
+META.yml                                 Module meta-data (added by MakeMaker)

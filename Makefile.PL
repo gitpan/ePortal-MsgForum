@@ -24,7 +24,7 @@ GetOptions( \%opts, 'no-prompts' );
 
 # ------------------------------------------------------------------------
 # Discover the home of ePortal
-our $EPORTAL_HOME = $ENV{EPORTAL_HOME} || '/home/ePortal';
+our $EPORTAL_HOME = $ENV{EPORTAL_HOME} || '/opt/ePortal';
 for my $i(0 .. $#ARGV) {
     if ($ARGV[$i] =~ /HOME=(.*)/) {
         $EPORTAL_HOME = $1;
